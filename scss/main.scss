@@ -1,3 +1,11 @@
+@import "media-queries";
+
+/* Variables */
+$primary-color : #363066;
+$secondary-color: #f2f2f2;
+$info-color: #14d3ae;
+$dark-color: #434d59;
+
 * {
    margin: 0;
    padding: 0;
@@ -7,7 +15,14 @@
 
 /* Header */
 #header {
-   height: 100vh;
+   height: 130vh;
+   overflow: hidden;
+   position: relative;
+
+   @include tablet {
+      height: 100vh;
+   }
+
 
    .navbar-brand {
       font-size: 1.5rem;
@@ -18,16 +33,51 @@
          font-size: .9rem;
       }
 
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .fa-bars:focus {
+         outline: none;
+         box-shadow: none;
+      }
+
       .login-btn {
-         border: 1px solid #f2f2f2;
+         border: 1px solid $secondary-color;
          border-radius: 3px;
          margin:0 .5rem;
+         padding: .35rem .75rem;
 
          &:hover {
-            opacity: .9;
+            background: #fff;
+            color: $primary-color !important;
             transition: all .3s;
          }
       }
+   }
+
+   #hero {
+      .row {
+         margin-top: 120px;
+      }
+
+      a {
+         padding:.75rem 1.5rem;
+         border-radius: 3px;
+         font-size: .9rem;
+         width:11rem;
+      }
+
+      .btn-first {
+         border: 1px solid $info-color;
+      }
+
+      .btn-second {
+         border: 1px solid #fff;
+      }
+   }
+
+   .header-img {
+      position: absolute;
+      bottom: -35px;
    }
 }
 /* End of Header */
