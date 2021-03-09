@@ -60,5 +60,24 @@ body {
     text-align: center; } }
 
 /* End of Business */
+/* Quote */
+#quote {
+  padding: 5.5rem 1rem; }
+  #quote .quote-text {
+    font-size: 1.1rem; }
+  #quote .quote-author {
+    color: rgba(0, 0, 0, 0.4); }
+
+/* End of Quote */
+/* Pricing */
+#pricing h1 {
+  font-weight: bold; }
+#pricing p {
+  font-size: 1rem; }
+@media screen and (max-width: 768px) {
+  #pricing .business-text {
+    text-align: center; } }
+
+/* End of Pricing */
 
 /*# sourceMappingURL=main.css.map */

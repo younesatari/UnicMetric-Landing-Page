@@ -103,3 +103,35 @@ body {
 }
 
 /* End of Business */
+/* Quote */
+#quote {
+   padding: 5.5rem 1rem;
+
+   .quote-text {
+      font-size: 1.1rem;
+   }
+
+   .quote-author {
+      color: rgba(0,0,0,.4);
+   }
+}
+
+/* End of Quote */
+/* Pricing */
+#pricing {
+   h1 {
+      font-weight: bold;
+   }
+
+   p {
+      font-size: 1rem;
+   }
+
+   .business-text {
+      @include screen {
+         text-align: center;
+      }
+   }
+}
+
+/* End of Pricing */
