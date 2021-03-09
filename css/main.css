@@ -92,5 +92,35 @@ body {
     color: rgba(0, 0, 0, 0.5) !important; }
 
 /* End of Learn */
+/* Quote two */
+#quote-two {
+  padding: 5.5rem 1rem; }
+  #quote-two .quote-text {
+    font-size: 1.1rem; }
+  #quote-two .quote-author {
+    color: rgba(0, 0, 0, 0.4); }
+  #quote-two .quote-btn {
+    font-size: 1rem !important;
+    border-bottom: 1px solid #14d3ae;
+    padding-bottom: .2rem; }
+
+/* End of Quote two */
+/* Signup */
+#signup {
+  padding: 6rem 1rem; }
+  #signup .signup-btn {
+    padding: .9rem 1.6rem; }
+
+/* End of Signup */
+/* Footer */
+#footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  #footer p {
+    font-size: 1.2rem; }
+  @media screen and (max-width: 768px) {
+    #footer a {
+      font-size: .8rem !important; } }
+
+/* End of Footer*/
 
 /*# sourceMappingURL=main.css.map */

@@ -141,7 +141,6 @@ body {
 /* End of Pricing */
 /* Learn */
 #learn {
-
    padding: 5.5rem 1rem;
 
    h4 {
@@ -153,5 +152,48 @@ body {
       color: rgba(0,0,0,.5) !important;
    }
 }
-
 /* End of Learn */
+/* Quote two */
+#quote-two {
+
+   padding: 5.5rem 1rem;
+
+   .quote-text {
+      font-size: 1.1rem;
+   }
+
+   .quote-author {
+      color: rgba(0,0,0,.4);
+   }
+
+   .quote-btn {
+      font-size: 1rem !important;
+      border-bottom: 1px solid $info-color;
+      padding-bottom: .2rem;
+   }
+}
+/* End of Quote two */
+/* Signup */
+#signup {
+   padding:6rem 1rem;
+
+   .signup-btn {
+      padding: .9rem 1.6rem;
+   }
+}
+/* End of Signup */
+/* Footer */
+#footer {
+   p {
+      font-size: 1.2rem;
+   }
+
+   border-top: 1px solid rgba(255,255,255,.2);
+
+   a {
+      @include screen {
+         font-size: .8rem !important;
+      }
+   }
+}
+/* End of Footer*/
