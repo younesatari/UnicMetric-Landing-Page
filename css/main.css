@@ -5,6 +5,9 @@
   box-sizing: border-box;
   outline: 0; }
 
+body {
+  font-family: 'Lato', sans-serif !important; }
+
 /* Header */
 #header {
   height: 130vh;
@@ -47,5 +50,15 @@
     bottom: -35px; }
 
 /* End of Header */
+/* Business */
+#business h1 {
+  font-weight: bold; }
+#business p {
+  font-size: 1rem; }
+@media screen and (max-width: 768px) {
+  #business .business-text {
+    text-align: center; } }
+
+/* End of Business */
 
 /*# sourceMappingURL=main.css.map */

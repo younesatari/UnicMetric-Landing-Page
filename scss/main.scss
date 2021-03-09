@@ -13,6 +13,10 @@ $dark-color: #434d59;
    outline: 0;
 }
 
+body {
+   font-family: 'Lato', sans-serif !important;
+}
+
 /* Header */
 #header {
    height: 130vh;
@@ -81,3 +85,21 @@ $dark-color: #434d59;
    }
 }
 /* End of Header */
+/* Business */
+#business {
+   h1 {
+      font-weight: bold;
+   }
+
+   p {
+      font-size: 1rem;
+   }
+
+   .business-text {
+      @include screen {
+         text-align: center;
+      }
+   }
+}
+
+/* End of Business */
