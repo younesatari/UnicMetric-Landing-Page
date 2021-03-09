@@ -77,7 +77,20 @@ body {
 @media screen and (max-width: 768px) {
   #pricing .business-text {
     text-align: center; } }
+#pricing .pricing-btn {
+  border-bottom: 1px solid #14d3ae;
+  padding-bottom: .2rem; }
 
 /* End of Pricing */
+/* Learn */
+#learn {
+  padding: 5.5rem 1rem; }
+  #learn h4 {
+    font-size: 1.1rem; }
+  #learn p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5) !important; }
+
+/* End of Learn */
 
 /*# sourceMappingURL=main.css.map */

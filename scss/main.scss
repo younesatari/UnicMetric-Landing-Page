@@ -132,6 +132,26 @@ body {
          text-align: center;
       }
    }
+
+   .pricing-btn {
+      border-bottom: 1px solid $info-color;
+      padding-bottom: .2rem;
+   }
+}
+/* End of Pricing */
+/* Learn */
+#learn {
+
+   padding: 5.5rem 1rem;
+
+   h4 {
+      font-size: 1.1rem;
+   }
+
+   p {
+      font-size: 1em;
+      color: rgba(0,0,0,.5) !important;
+   }
 }
 
-/* End of Pricing */
+/* End of Learn */
